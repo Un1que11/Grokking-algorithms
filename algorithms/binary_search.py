@@ -11,3 +11,7 @@ def binary_search(sorted_list, value):
         else:
             return mid_item
     return None
+
+
+if __name__ == '__main__':
+    print(binary_search([1, 2, 3, 4, 5], 3))
